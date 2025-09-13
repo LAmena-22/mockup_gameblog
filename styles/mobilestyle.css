@@ -1,0 +1,48 @@
+body {
+	background-image: url(../images/NightSkyBG.webp);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-blend-mode: screen;
+}
+
+.gamerow {
+	display: flex;
+	justify-content: center;
+}
+
+.gameshowcase {
+	border: 4px double black;
+	background-color: white;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+.gametitle {
+	position: sticky;
+	top: 0;
+	background-color: darkgray;
+	padding: 0;
+	text-align: center;
+
+}
+
+.gamedesc {
+	float: right;
+	height: 240px;
+	width: 500px;
+	margin: 5px 10px 5px 20px;
+	padding: 0 10px 0 10px;
+	border: 1px solid black;
+	overflow: scroll;
+	text-align: left;
+	background-color: gray;
+	font-size: 18px;
+	border: 1px solid black;
+}
+
+.coversize {
+	height: 250px;
+	float: left;
+}

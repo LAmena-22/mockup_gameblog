@@ -1,0 +1,135 @@
+body {
+	background-image: url(../images/home/Home_back.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 1450px;
+}
+
+.imgContainer {
+	height: 300px;
+	width: 1000px;
+	padding: 1em;
+	margin: 20px 0 20px 50px;
+	background-color: #333;
+	border: 6px	 solid black;
+	justify-content: center;
+	text-align: center;
+}
+
+.descContainer {
+	height: 200px;
+	width: 1000px;
+	padding: 1em;
+	margin: 20px 0 20px 50px;
+	background-color: #333;
+	border: 6px	 solid black;
+	color: white;
+	font-size: 18px;
+	overflow: auto;
+}
+
+.imgfit {
+	height: 250px;
+	width: 400px;
+	margin: 30px;
+}
+
+.gamehead {
+	text-align: center;
+	color: white;
+	padding: 1px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 4px double white;
+}
+.gamerow {
+	display: flex;
+	justify-content: center;
+	overflow-x: scroll;
+	border: 4px double white;
+}
+
+.gameshowcase {
+	border: 4px double black;
+	background-color: white;
+	text-align: center;
+	padding: 10px;
+	margin: 20px;
+}
+
+.coversize {
+	height: 400px;
+}
+
+.slideContainer {
+	position: absolute;
+	top: 5px;
+	right: 0;
+	scale: 0.6;
+	width: 600px;
+	padding: 2em;
+	background-color: #333;
+	border: 8px	 solid black;
+}
+
+.slide {
+	text-align: center;
+	display: none;
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 2em;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3 px 0;
+	user-select: none;
+}
+
+.prev {
+	left: 5px;
+	border-radius: 3px 0 0 3px;
+}
+
+.next {
+	right: 5px;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+.caption {
+	color: whitesmoke;
+	font-size: 2.5em;
+	font-weight: bold;
+	padding-top: 16px;
+	width: 100%;
+}
+
+.numText {
+	color: whitesmoke;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: left;
+	padding-bottom: 16px;
+	top: 0;
+}
+
+.fade {
+	animation-name: fade;
+	animation-duration: 2s;
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
